@@ -1,0 +1,229 @@
+@font-face {
+    font-family: Horizon;
+    src: url(../fonts/horizon.otf);
+}
+
+@font-face {
+    font-family: Roxborough;
+    src: url(../fonts/Roxborough\ CF.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Horizon;
+    max-width: 100%;
+}
+
+.promo {
+    width: 100vw;
+    height: 100vh;
+
+    @media (max-width: 1300px) {
+        height: 120vh;
+    }
+}
+
+.full__name {
+    line-height: 1.3rem;
+    margin: 50px 5vw;
+    font-size: 1.3rem;
+}
+
+.surname {
+    color: #f27c22;
+}
+
+.work__with__me {
+    position: absolute;
+    top: 50px;
+    right: 5vw;
+    height: 4rem;
+    width: 275px;
+    border: 1px solid black;
+    background: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 100;
+}
+
+.work__with__me:hover {
+    transform: scale(1.1)
+}
+
+.icons {
+    display: flex;
+    gap: 49px;
+    width: 100vw;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.icons__item {
+    width: 100px;
+}
+
+.promo__title {
+    font-size: 5rem;
+    max-width: 40vw;
+    text-align: center;
+    margin: 49px auto;
+    line-height: 6rem;
+}
+
+.promo__title span {
+    color: #f27c22;
+}
+
+.about {
+    width: 100vw;
+    height: 100vh;
+
+    @media (max-width: 1300px) {
+        height: 120vh;
+    }
+}
+
+.about__icon {
+    height: 125px;
+    margin-left: 10vw;
+}
+
+.about__descr {
+    margin: 80px 10vw;
+    width: 39%;
+    font-size: 2rem;
+} 
+
+.about__descr span {
+    color: #f27c22;
+}
+
+.about__img {
+    display: block;
+    margin: -650px 65vw;
+    height: 70vh;
+}
+
+.recent {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.recent__title {
+    font-size: 3rem;
+    margin: 100px auto 0 0;
+    text-align: center;
+}
+
+.recent__img#ronaldo {
+    width: 20vw;
+    margin: 75px 25vw 0;
+}
+
+.recent__img#palmer {
+    position: relative;
+    width: 30vw;
+    margin-left: -20vw;
+    top: 200px;
+}
+
+.services {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 130px;
+
+    @media (max-width: 1300px) {
+        height: 120vh;
+    }
+}
+
+.services__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services__title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.services__img {
+    width: 150px;
+}
+
+.services__item {
+    text-align: center;
+}
+
+.services__descr {
+    margin-top: 25px;
+    font-size: 1.5rem;
+    width: 400px;
+}
+
+.services__descr p {
+    font-family: Roxborough;
+    font-weight: 500;
+}
+
+.service__personal {
+    margin-top: 172px;
+}
+
+.service__brands {
+    margin-top: 66px;
+}
+
+.service__sites {
+    margin-top: 216px;
+}
+
+footer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 123px 0 100px;
+}
+
+.footer__title {
+    font-size: 4rem;
+    width: 200px;
+}
+
+.socials {
+    text-align: right;
+    width: 300px;
+    margin-left: 70vw;
+
+    @media (max-width: 1300px) {
+        margin-left: 700px;
+    }
+}
+
+.socials a {
+    color: #000;
+    text-decoration: none;
+    font-family: Roxborough;
+    font-size: 1.5rem;
+}
+
+.socials__title {
+    font-size: 2rem;
+}
+
+.socials__title#second {
+    margin-top: 50px;
+}
+
+.social__links {
+    list-style-type: none;
+    cursor: pointer;
+    font-family: Roxborough;
+    font-size: 1.5rem;
+}
+
